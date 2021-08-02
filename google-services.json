@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "606354886130",
+    "project_id": "octomood-90262",
+    "storage_bucket": "octomood-90262.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606354886130:android:b00314e03eb945c5476f6b",
+        "android_client_info": {
+          "package_name": "com.greencrypted.octomood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606354886130-u2vm0414vf8qhhmcq62eapkmlgdbb4r5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDkeFFObN-mrFXQPdsMPZ2aYPfe4K1JdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606354886130-u2vm0414vf8qhhmcq62eapkmlgdbb4r5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

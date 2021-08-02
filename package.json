@@ -1,0 +1,58 @@
+{
+  "name": "com.greencrypted.octomood",
+  "displayName": "OctoMood",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cocoapods": "^0.0.0",
+    "cordova-android": "^9.1.0",
+    "cordova-browser": "^6.0.0",
+    "cordova-ios": "^6.2.0",
+    "cordova-plugin-add-swift-support": "^2.0.2",
+    "cordova-plugin-androidx": "^3.0.0",
+    "cordova-plugin-androidx-adapter": "^1.1.3",
+    "cordova-plugin-badge": "^0.8.8",
+    "cordova-plugin-device": "^2.0.3",
+    "cordova-plugin-dialogs": "^2.0.2",
+    "cordova-plugin-firebase-analytics": "~6.0.0",
+    "cordova-plugin-firebase-messaging": "^6.0.0",
+    "cordova-plugin-firebasex": "^13.0.1",
+    "cordova-plugin-local-notification": "^0.9.0-beta.2",
+    "cordova-plugin-whitelist": "^1.3.4",
+    "cordova-support-android-plugin": "~1.0.0",
+    "web": "^0.0.2"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-dialogs": {},
+      "cordova-plugin-local-notification": {},
+      "cordova-plugin-badge": {},
+      "cordova-plugin-firebase-messaging": {
+        "ANDROID_FIREBASE_MESSAGING_VERSION": "22.0.+",
+        "ANDROIDX_CORE_VERSION": "1.6.+",
+        "IOS_FIREBASE_MESSAGING_VERSION": "~> 8.2.0"
+      },
+      "cordova-plugin-androidx-adapter": {},
+      "cordova-plugin-androidx": {},
+      "cordova-plugin-device": {}
+    },
+    "platforms": [
+      "browser",
+      "ios",
+      "android"
+    ]
+  },
+  "dependencies": {
+    "backendless": "^6.2.21"
+  }
+}
