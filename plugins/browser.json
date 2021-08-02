@@ -1,0 +1,44 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.greencrypted.octomood"
+    },
+    "cordova-plugin-local-notification": {
+      "PACKAGE_NAME": "com.greencrypted.octomood"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.greencrypted.octomood"
+    },
+    "cordova-plugin-firebase-messaging": {
+      "ANALYTICS_COLLECTION_ENABLED": "true",
+      "AUTOMATIC_SCREEN_REPORTING_ENABLED": "true",
+      "PACKAGE_NAME": "com.greencrypted.octomood"
+    },
+    "cordova-plugin-androidx-adapter": {
+      "PACKAGE_NAME": "com.greencrypted.octomood"
+    },
+    "cordova-plugin-androidx": {
+      "PACKAGE_NAME": "com.greencrypted.octomood"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.greencrypted.octomood"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-badge": {
+      "PACKAGE_NAME": "com.greencrypted.octomood"
+    },
+    "cordova-plugin-firebase-analytics": {
+      "ANALYTICS_COLLECTION_ENABLED": "true",
+      "AUTOMATIC_SCREEN_REPORTING_ENABLED": "true",
+      "PACKAGE_NAME": "com.greencrypted.octomood"
+    }
+  }
+}
